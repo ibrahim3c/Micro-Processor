@@ -173,7 +173,7 @@ module CommonBus_ControlSignal(x, D, T, I);
 
 	assign x[0]=0;
 	assign x[1] = (D[4] & T[4]) | (D[5] & T[5]);  //AR 
-	assign x[2] = (D[5] & T[4]) | T[0];  //PC 
+	assign x[2] = (D[5] & T[4]) | (T[0]);  //PC 
 	assign x[3] = T[6] & D[6];     //DR 
 	assign x[4] = D[3] & T[4];     //AC 
 	assign x[5] = T[2] ;           //IR 

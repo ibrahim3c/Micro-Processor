@@ -4,7 +4,7 @@ module AC_Reg(
     ,output reg [7:0] out
 ) ;
 initial begin
-    out=8'h0;
+    out=8'h11;
 end
 
     always @(posedge clk ) begin

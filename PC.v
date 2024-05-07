@@ -6,7 +6,7 @@ module PC_Reg(
 
 
 initial begin
-    out=4'h1;
+    out=4'h0;
 end
 
     always @(posedge clk ) begin

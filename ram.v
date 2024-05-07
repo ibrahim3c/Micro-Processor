@@ -29,12 +29,12 @@ reg [7:0] ram [0:15];  // 16 memory locations and one location 8 bit
     ram[15] = 8'h0F;
 end
 
-always @ (posedge clk)
-begin
+
+   always @* begin
     if (read)
-        data_out <= ram[addr]; // Read data from memory 
-     if(write)
-        ram[addr] <= data_in;  // Write data to memory 
+        data_out = ram[addr]; // Read data from memory
+    else if (write)
+        ram[addr] = data_in;  // Write data to memory 
 end
 
 endmodule

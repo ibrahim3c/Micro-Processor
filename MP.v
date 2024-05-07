@@ -20,17 +20,21 @@ wire [7:0] T, D, B;
 wire LDAC, CLRAC, INRAC, LDAR, INRAR, LDDR, INRDR, LDIR, INRPC, CLRSC,LDPC,read,write;
 wire [2:0]s;
 wire  AND, ADD, LDA, STA, BUN, BSA, ISZ, CMA, CLA, CIL, CIR;
+
+// Signals for adder and logic unit and CB 
 wire [2:0] count;
 wire [7:0]ACData,OUT;
 
-// Signals for adder and logic unit
-output reg [7:0] AC, DR,IR,ram;
-output reg [3:0] PC, AR;
+//ouptut
+output  [7:0] AC, DR,IR,ram;
+output  [3:0] PC, AR;
 reg cin;
-output reg E;
-output reg [7:0] sc;
+output  E;
+output  [7:0] sc;
 
 
+
+//wires to link the modules
 wire[7:0] ac_wire,dr_wire,ir_wire,ram_wire;
 wire e_wire;
 wire[3:0] pc_wire,ar_wire;
@@ -38,6 +42,18 @@ wire[3:0] pc_wire,ar_wire;
 initial begin
     cin=0;
 end
+
+
+assign AC=ac_wire;
+assign DR=dr_wire;
+assign IR=ir_wire;
+assign ram=ram_wire;
+assign PC=pc_wire;
+assign AR=ar_wire;
+assign E=e_wire;
+assign  sc=T;
+
+
 
 
 // initial begin
@@ -50,27 +66,20 @@ end
 //     sc=0;
 //     ram=0;
 // end
-// assign AC=ac_wire;
-// assign DR=dr_wire;
-// assign IR=ir_wire;
-// assign ram=ram_wire;
-// assign pc=pc_wire;
-// assign AR=ar_wire;
-// assign E=e_wire;
 
 
 
 // Output register assignments
-    always @(*) begin
-        AC <= ac_wire;
-        DR <= dr_wire;
-        IR <= ir_wire;
-        ram <= ram_wire;
-        PC <= pc_wire;
-        AR <= ar_wire;
-        E <= e_wire;
-        sc<=T;
-    end
+    // always @(*) begin
+    //     AC <= ac_wire;
+    //     DR <= dr_wire;
+    //     IR <= ir_wire;
+    //     ram <= ram_wire;
+    //     PC <= pc_wire;
+    //     AR <= ar_wire;
+    //     E <= e_wire;
+    //     sc<=T;
+    // end
 
 
 
