@@ -9,12 +9,7 @@ initial begin
 end
 
     always @(posedge clk ) begin
-
-         if(LD)  out <=in;
-
+        if(LD)  out <=in;
     end
 
-
 endmodule
-
-

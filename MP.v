@@ -226,10 +226,6 @@ RAM_8x4bit RAM (
     .data_in(OUT)
     ,.data_out(ram_wire)
 );
-
-
-
-
 endmodule
 
 

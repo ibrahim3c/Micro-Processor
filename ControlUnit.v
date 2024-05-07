@@ -1,11 +1,8 @@
-
-
-
 module ControlUnit (
     input [7:0] T, input [7:0] D ,input I, input [7:0] B,
     output  LDAC, CLRAC, INRAC,LDAR,INRAR,/*CLRAR,*/ReadRam,WriteRam,LDDR,INRDR,LDIR,INRPC,CLRSC,LDPC
     ,output [0:2] s,
-    output AND,ADD,LDA,STA,BUN,BSA,ISZ,CMA,CLA,CIL,CIR
+    output AND,ADD,LDA,STA,BUN,BSA,ISZ,CMA,CLA,CIL,CIR //Instruction singals
 );
 
 
@@ -157,7 +154,7 @@ module PC_ControlSingal (
 // input  I;
 input [7:0] T, D;
 output LD, /*CLR,*/ INR;
-assign LD=(D[6] & T[6])|(D[4] & T[4]);
+assign LD=(D[4] & T[4])|(D[5] & T[5]);
 assign INR=(T[1])|(D[6] & T[6]);
 
 endmodule
@@ -185,7 +182,7 @@ endmodule
 
 module Selections (
 	input [7:0]x,
-	output [2:0]s
+	output[2:0]s
 );
 
 assign s[0]=x[1] | x[3] | x[5] | x[7];

@@ -30,7 +30,7 @@ reg [7:0] ram [0:15];  // 16 memory locations and one location 8 bit
 end
 
 
-   always @* begin
+   always @(*) begin
     if (read)
         data_out = ram[addr]; // Read data from memory
     else if (write)
