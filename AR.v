@@ -11,7 +11,7 @@ end
     always @(posedge clk ) begin
         // if(CLR) out<=4'b0;
          if(LD)  out <=in;
-         if(INR)  out<=in+1;
+         if(INR)  out<=out+1;
     end
 
 
