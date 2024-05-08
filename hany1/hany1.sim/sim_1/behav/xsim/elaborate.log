@@ -1,0 +1,59 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 40bb48512d2b4e0e8a8e40408243e7aa --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Micro_Computer_tb_behav xil_defaultlib.Micro_Computer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 555. Module Micro_Computer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 140. Module Sequence_Counter3Bit2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 156. Module Decoder3x8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 58. Module IR_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 156. Module Decoder3x8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 179. Module ControlUnit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 259. Module AC_ControlSingal doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 273. Module AR_ControlSingal doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 292. Module DR_ControlSingal doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 305. Module IR_ControlSingal doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 329. Module PC_ControlSingal doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 378. Module RAM_Control_Signal doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 425. Module SC_ControlSignal doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 343. Module CommonBus_ControlSignal doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 361. Module Selections doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 392. Module Instructions_ControlSignal doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 492. Module BUS_SEL doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 532. Module MUX_8to1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 1. Module AC_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 19. Module AR_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 438. Module AdderAndLogic4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 40. Module DR_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 73. Module PC_Reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ahmed/Desktop/allllllll/hany/hany.srcs/sources_1/new/micro_processor.v" Line 94. Module RAM_8x4bit doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sequence_Counter3Bit2
+Compiling module xil_defaultlib.Decoder3x8
+Compiling module xil_defaultlib.IR_Reg
+Compiling module xil_defaultlib.AC_ControlSingal
+Compiling module xil_defaultlib.AR_ControlSingal
+Compiling module xil_defaultlib.DR_ControlSingal
+Compiling module xil_defaultlib.IR_ControlSingal
+Compiling module xil_defaultlib.PC_ControlSingal
+Compiling module xil_defaultlib.RAM_Control_Signal
+Compiling module xil_defaultlib.SC_ControlSignal
+Compiling module xil_defaultlib.CommonBus_ControlSignal
+Compiling module xil_defaultlib.Selections
+Compiling module xil_defaultlib.Instructions_ControlSignal
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.MUX_8to1
+Compiling module xil_defaultlib.BUS_SEL
+Compiling module xil_defaultlib.AC_Reg
+Compiling module xil_defaultlib.AR_Reg
+Compiling module xil_defaultlib.AdderAndLogic4
+Compiling module xil_defaultlib.DR_Reg
+Compiling module xil_defaultlib.PC_Reg
+Compiling module xil_defaultlib.RAM_8x4bit
+Compiling module xil_defaultlib.Micro_Computer
+Compiling module xil_defaultlib.Micro_Computer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Micro_Computer_tb_behav
