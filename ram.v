@@ -12,7 +12,7 @@ reg [7:0] ram [0:15];  // 16 memory locations and one location 8 bit
     initial begin
     // Initialize memory array with desired values
     ram[0]  = 8'h0C;  // AND => 0 000 1100 (12)
-    ram[1]  = 8'h91;  // ADD => 1 001 1010 (10) indirect
+    ram[1]  = 8'h1A;  // ADD => 0 001 1010 (10) 
     ram[2]  = 8'h26;  // LDA => 0 010 0110 (6)
     ram[3]  = 8'h76;  //CLA  => 0 111 0110  // register reference   
     ram[4]  = 8'h04;
