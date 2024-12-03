@@ -37,7 +37,11 @@ The project includes the following modules:
 26. **timing_signals**: Module for timing signals.
 
 ---
+## Basic Computer
+<img src="./images/Basic%20Computer.jpg" alt="Basic computer" width="550" height="550"/>
 
-## Summary
+## Instruction Set
+<img src="./images/Instruction%20Set.jpg" alt="Instruction Set" width="550" height="550"/>
 
-This project showcases the design and implementation of a theoretical computer architecture using various modules. Each module plays a specific role in emulating the functionality of a basic computer, such as handling arithmetic operations, controlling memory, and managing data flow between components. The project provided hands-on experience in understanding and simulating computer architecture at a microcontroller level.
+## Output
+<img src="./images/output.png" alt="Output" width="550" height="550"/>
